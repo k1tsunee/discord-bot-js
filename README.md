@@ -30,7 +30,7 @@ Shows someone's profile pic
 
 Vote kick someone. Syntax:
 
---votekick @ <user you want to vote kick> <max vote number (minimum 3)> <time to vote (minimum 10 seconds)>
+--votekick @user you want to vote kick <max vote number (minimum 3)> <time to vote (minimum 10 seconds)>
 
 Enjoy =)
 
