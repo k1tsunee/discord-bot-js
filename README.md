@@ -20,6 +20,10 @@ You can add the bot for your server here: https://discord.com/api/oauth2/authori
 
 #Bot commands
 
+--help
+
+Shows help (duh.)
+
 --myprofpic
 
 Shows your profile pic.
