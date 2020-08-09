@@ -4,7 +4,7 @@ module.exports = {
     name: 'help',
     description: 'Shows help',
     execute(message, args){
-        const helpEmbed = new Discord.RichEmbed()
+        const helpEmbed = new Discord.MessageEmbed()
         .setColor('#a55dfc')
         .setTitle('Commands')
         .setAuthor('k1tsunee', 'https://i.imgur.com/D655GD6.png', 'https://github.com/k1tsunee')

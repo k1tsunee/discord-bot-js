@@ -6,10 +6,10 @@ module.exports = {
     execute(message, args){
         if(message.mentions.users.size){
             const mentionedUser = message.mentions.users.first();
-            const mentionedUserProfPicEmbed = new Discord.RichEmbed()
+            const mentionedUserProfPicEmbed = new Discord.MessageEmbed()
             .setColor('#a55dfc')
             .setTitle(`${mentionedUser.username}'s profile pic is:`)
-            .setImage(mentionedUser.displayAvatarURL)
+            .setImage(mentionedUser.displayAvatarURL({format: "png", dynamic: "true", size: 4096}))
         message.channel.send(mentionedUserProfPicEmbed);
         }
     },
