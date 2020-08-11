@@ -34,6 +34,7 @@ module.exports = {
         collected.map(messageReaction => {
             auxiliaryVote = messageReaction.count;
             if (auxiliaryVote >= (voteKickNumber - 1)) {
+                mentionedUserForKick.kick("Voted off.");
                 message.channel.send(`${mentionedUserForKick} was kicked. get lost kiddo lol`);
                 return;
             }
