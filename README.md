@@ -2,7 +2,7 @@
 
 A bot for Discord using node.js and discord.js
 
-You can add the bot for your server here: https://discord.com/api/oauth2/authorize?client_id=741697679343747125&permissions=8&scope=bot
+You can add the bot to your server here: https://discord.com/api/oauth2/authorize?client_id=741697679343747125&permissions=1074261058&scope=bot
 
 #Usage:
 
